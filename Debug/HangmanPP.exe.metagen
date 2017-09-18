@@ -1,0 +1,92 @@
+  HangmanPP.Game.GameScreen.resources - Embedded, ContainedInManifestFile, 
+  HangmanPP.Game.HomeScreen.resources - Embedded, ContainedInManifestFile, 
+  HangmanPP.Game.InputPrompt.resources - Embedded, ContainedInManifestFile, 
+  HangmanPP.Game.StoryMode.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly HangmanPP, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class HangmanPP.Dictionary.Word: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getWord(): PrivateScope, Public, HideBySig
+    getSentence(): PrivateScope, Public, HideBySig
+    getRelatedWords(): PrivateScope, Public, HideBySig
+    getDefinition(): PrivateScope, Public, HideBySig
+    getFullHint(): PrivateScope, Public, HideBySig
+    setHint(WordDifficulty): PrivateScope, Public, HideBySig
+Class HangmanPP.Dictionary.DictionaryAPI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    generateWord(WordDifficulty): PrivateScope, Public, HideBySig
+    isWordPlayable(Word, WordDifficulty): PrivateScope, Public, HideBySig
+Class HangmanPP.Dictionary.DictionaryAPI+DictionaryAPIConnectionException: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.ApplicationException
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    what(): PrivateScope, Public, HideBySig
+Class HangmanPP.Dictionary.FileException: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ApplicationException
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    what(): PrivateScope, Public, HideBySig
+Class HangmanPP.Game.GameParameters: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.List`1[HangmanPP.Dictionary.Word] secretWords : Public
+    HangmanPP.Game.GameMode gameMode : Public
+    HangmanPP.Dictionary.WordDifficulty wordDifficulty : Public
+    Int32 timeLimitInSeconds : Public
+    System.String themePath : Public
+    Boolean gameSoundEnabled : Public
+Class HangmanPP.Game.HangmanSoundPlayer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    PlayOnce(String): PrivateScope, Public, Static, HideBySig
+    PlayLooping(String): PrivateScope, Public, Static, HideBySig
+    StopPlayLooping(): PrivateScope, Public, Static, HideBySig
+    isSoundPlaying(): PrivateScope, Public, Static, HideBySig
+Class HangmanPP.Game.InputPrompt: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getUserInput(): PrivateScope, Public, HideBySig
+Class HangmanPP.Game.GameScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(HangmanPP.Game.GameParameters): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class HangmanPP.Game.StoryMode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(HangmanPP.Game.GameParameters): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class HangmanPP.Game.HomeScreen: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct HangmanPP.Dictionary.WordDifficulty: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    HangmanPP.Dictionary.WordDifficulty Easy = 0 : Public, Static, Literal, HasDefault
+    HangmanPP.Dictionary.WordDifficulty Medium = 1 : Public, Static, Literal, HasDefault
+    HangmanPP.Dictionary.WordDifficulty Hard = 2 : Public, Static, Literal, HasDefault
+Struct HangmanPP.Game.GameMode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    HangmanPP.Game.GameMode TraditionalSinglePlayer = 0 : Public, Static, Literal, HasDefault
+    HangmanPP.Game.GameMode SpeedMode = 1 : Public, Static, Literal, HasDefault
+    HangmanPP.Game.GameMode StoryMode = 2 : Public, Static, Literal, HasDefault
+    HangmanPP.Game.GameMode LocalMultiPlayer = 3 : Public, Static, Literal, HasDefault
+    HangmanPP.Game.GameMode OnlineMultiPlayer = 4 : Public, Static, Literal, HasDefault

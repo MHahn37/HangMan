@@ -1,0 +1,60 @@
+﻿Build started 13/12/2015 5:17:40 PM.
+     1>Project "C:\Users\Matt\Documents\Queen's\Third Year\Semester 1\CMPE 320\hickory\HangmanPP\HangmanPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"mysql-cpp-connection-driver" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib AppInit.cpp Dictionary\Dictionary.cpp Game\GameParameters.cpp Game\GameScreen.cpp Game\HangmanSoundPlayer.cpp Game\HomeScreen.cpp Game\InputPrompt.cpp Game\StoryMode.cpp MySQL\MySQL.cpp
+         AppInit.cpp
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1000): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1026): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1028): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1031): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\Game\HomeScreen.h(419): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\Game\HomeScreen.h(422): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\Game\HomeScreen.h(424): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\Game\HomeScreen.h(426): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\Game\HomeScreen.h(429): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\Game\HomeScreen.h(431): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         Dictionary.cpp
+     1>Dictionary\Dictionary.cpp(55): warning C4101: 'e': unreferenced local variable
+         GameParameters.cpp
+         GameScreen.cpp
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1000): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1026): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1028): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1031): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         HangmanSoundPlayer.cpp
+         HomeScreen.cpp
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1000): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1026): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1028): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1031): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\HomeScreen.h(419): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\HomeScreen.h(422): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\HomeScreen.h(424): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\HomeScreen.h(426): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\HomeScreen.h(429): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\HomeScreen.h(431): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         InputPrompt.cpp
+         StoryMode.cpp
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1000): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1026): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1028): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\matt\documents\queen's\third year\semester 1\cmpe 320\hickory\hangmanpp\game\GameScreen.h(1031): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+         MySQL.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matt\Documents\Queen's\Third Year\Semester 1\CMPE 320\hickory\HangmanPP\Debug\HangmanPP.exe" /INCREMENTAL /NOLOGO /LIBPATH:"mysql-cpp-connection-driver" mysqlcppconn.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\HangmanPP.Game.GameScreen.resources /ASSEMBLYRESOURCE:Debug\HangmanPP.Game.HomeScreen.resources /ASSEMBLYRESOURCE:Debug\HangmanPP.Game.InputPrompt.resources /ASSEMBLYRESOURCE:Debug\HangmanPP.Game.StoryMode.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Matt\Documents\Queen's\Third Year\Semester 1\CMPE 320\hickory\HangmanPP\Debug\HangmanPP.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\AppInit.obj
+         Debug\Dictionary.obj
+         Debug\GameParameters.obj
+         Debug\GameScreen.obj
+         Debug\HangmanSoundPlayer.obj
+         Debug\HomeScreen.obj
+         Debug\InputPrompt.obj
+         Debug\StoryMode.obj
+         Debug\MySQL.obj
+         "Debug\.NETFramework,Version=v4.5.2.AssemblyAttributes.obj"
+         HangmanPP.vcxproj -> C:\Users\Matt\Documents\Queen's\Third Year\Semester 1\CMPE 320\hickory\HangmanPP\Debug\HangmanPP.exe
+     1>Done Building Project "C:\Users\Matt\Documents\Queen's\Third Year\Semester 1\CMPE 320\hickory\HangmanPP\HangmanPP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.55
